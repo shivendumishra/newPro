@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PHONEBOOK</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1 class="logo"><a href="#">Phone A Friend</a></h1>
+    </header>
+
+    <div class="nav-item">
+      <h1 class="header-item"><a href="#" class="contacts">Contacts</a></h1>
+      <h1 class="header-item"><a href="#" class="favorites">Favorites</a></h1>
+      <h1 class="header-item"><a href="#" class="search">Search</a></h1>
+      <img src="undraw_android_jr64.svg" alt="phone image" />
+    </div>
+
+    <main>
+      
+      <h1 class="tittle">PHONEBOOK</h1>
+      <form action="https://api.apispreadsheets.com/data/14861/">
+      <section>
+        <label for="name" class="name">
+          Name<br />
+          <input type="text" class="name" id="input-space-1"/>
+          <br> <br> <br>
+          
+        <label for="email" class="name">
+          Number<br />
+          <input type="number" class="name" id="input-space-2"/>
+          <br>
+        </label>
+        <div class="submit">
+          <h1><a href="#" class="save">SAVE</a></h1>
+        </div>
+      </section>
+    </form>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

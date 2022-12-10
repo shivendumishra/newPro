@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Seaweed+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #adb5bd;
+  overflow: hidden;
+}
+header {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.header-item {
+  padding: 10px;
+  font-weight: 300;
+}
+
+.logo {
+  padding: 10px 0 10px 0;
+  font-family: "Seaweed Script", cursive;
+  line-height: 3rem;
+  letter-spacing: 3px;
+}
+
+.nav-item {
+  font-size: 0.7rem;
+  font-family: "Seaweed Script", cursive;
+  font-family: "Montserrat", sans-serif;
+  background-color: white;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  margin-top: 5px;
+  width: 550px;
+  /* border: 2px solid red; */
+  border-radius: 50px;
+}
+
+.nav-item:hover {
+  transition: 0.5s;
+  background-color: #6c757d;
+}
+
+.header-item:hover a {
+  transition: 0.5s;
+  color: white;
+}
+
+img {
+  z-index: -1;
+  /* display: inline-block; */
+  position: absolute;
+  top: 80px;
+  left: 16vw;
+  /* margin: auto; */
+  /* height: 584px; */
+}
+
+section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  top: 23vh;
+  left: 6px;
+}
+
+#input-space-1,
+#input-space-2 {
+  background-image: linear-gradient(90deg, #ad5389, #3c1053);
+
+  color: white;
+  border-radius: 100px;
+  outline: none;
+}
+
+.name {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-family: "Dancing Script", cursive;
+  font-weight: 900;
+}
+
+/* this removes the number scroll/spinner  */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.submit {
+  background-color: #6c757d;
+  border-radius: 50px;
+  margin-top: 50px;
+  font-family: "Montserrat", sans-serif;
+  width: 150px;
+  margin-left: 52px;
+}
+
+.submit:hover a {
+  color: white;
+  transition: 500ms;
+}
+.tittle {
+  width: 230px;
+  border: 3px solid black;
+  position: relative;
+  top: 15vh;
+  left: 43vw;
+  padding-left: 5px;
+}
